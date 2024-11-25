@@ -1,0 +1,42 @@
+.altura{
+    height: 150px !important; 
+    border-radius: 15px;
+    
+}
+.tiempoAgotado{
+    color: red;
+    font-size: 25px;
+}
+.tablero div img:hover{
+    transform:scale(1.2);
+    box-shadow: -2px 0px 26px 3px rgb(156, 182, 238);
+}
+.fondo1, .fondo2, .fondo3{
+    background-image: url("../imagenes/fondo1.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.fondo2{
+    background-image: url("../imagenes/fondo2.jpg");
+}
+.fondo3{
+    background-image: url("../imagenes/fondo3.jpg");
+    
+}
+@media (max-width: 576px){
+
+    .fondo1{
+        background-image: url("../imagenes/fondo1.jpg");
+        background-position: center;
+        
+    }
+ .fondo2{
+    background-image: url("../imagenes/fondo2.jpg");
+    background-position: center;
+}
+.fondo3{
+    background-image: url("../imagenes/fondo3.jpg");
+    background-position: center;
+    
+}
+}
